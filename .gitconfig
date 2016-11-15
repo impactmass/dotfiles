@@ -1,0 +1,24 @@
+[user]
+	name = Seun Martins
+	email = impactmass2000@gmail.com
+	username = andela-smartins
+[color]
+	ui = auto
+
+[alias]
+	co = checkout
+	com = commit
+	st = status
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+	br = branch
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	type = cat-file -t
+	dump = cat-file -p
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true
+[credential]
+	helper = cache --timeout=28800
+[core]
+	excludesfile = /Users/seunmartins/.gitignore_global

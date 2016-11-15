@@ -1,0 +1,73 @@
+{
+  "always_show_minimap_viewport": true,
+  "bold_folder_labels": true,
+  "default_encoding": "UTF-8",
+  "detect_indentation": false,
+  "draw_white_space": "all",
+  "color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
+  "default_line_ending": "unix",
+  "draw_minimap_border": true,
+  "ensure_newline_at_eof_on_save": true,
+  "fallback_encoding": "UTF-8",
+  "flatland_sidebar_tree_small": true,
+  "folder_exclude_patterns":
+  [
+    ".svn",
+    ".git",
+    ".hg",
+    "CVS",
+    ".bower-cache",
+    ".idea",
+    "src/public/js/vendor",
+    "public/lib",
+    "node_modules",
+    "test/coverage",
+    "public/tmp_lib",
+    "db",
+    "bower_components",
+    "migrate"
+  ],
+  "font_face": "monaco",
+  "font_options":
+  [
+    "gray_antialias",
+    "subpixel_antialias"
+  ],
+  "font_size": 14,
+  "highlight_line": true,
+  "ignored_packages":
+  [
+    "AutoFileName",
+    "Markdown",
+    "MarkdownEditing",
+    "RegReplace",
+    "SublimeLinter-jscs",
+    "SublimeLinter-jshint",
+    "Vintage"
+  ],
+  "indent_guide_options":
+  [
+    "draw_normal",
+    "draw_active"
+  ],
+  "line_padding_bottom": 0,
+  "line_padding_top": 0,
+  "margin": 0,
+  "word_wrap": true,
+  "highlight_modified_tabs": true,
+  "hot_exit": false,
+  "material_theme_compact_sidebar": true,
+  "material_theme_contrast_mode": true,
+  "overlay_scroll_bars": "enabled",
+  "preview_on_click": true,
+  "show_encoding": true,
+  "rulers":
+  [
+    100
+  ],
+  "save_on_focus_lost": true,
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true,
+  "update_check": false
+}
