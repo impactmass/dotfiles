@@ -7,8 +7,8 @@ export PATH=/usr/local/bin:$PATH
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-# i like: robbyrussell, cobalt2, jnrowe, mgutz, sunrise.zsh-theme (previous)
-ZSH_THEME="cobalt2"
+# i like: cobalt2, ys
+ZSH_THEME="ys"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -60,7 +60,7 @@ plugins=(git extract node npm bower brew cloudapp)
 source $ZSH/oh-my-zsh.sh
 memcached -d -m 24 -p 11211
 eval "$(ssh-agent -s)"
-nvm use v6.9.1
+nvm use v7.4.0
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
