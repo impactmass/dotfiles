@@ -15,10 +15,10 @@ brew install coreutils
 # Install other useful binaries.
 brew install ack
 brew install dark-mode
-brew install git
-brew install git-lfs
 brew install imagemagick --with-webp
 brew install tree
+
+brew install mongodb
 
 # Remove outdated versions from the cellar.
 brew cleanup
