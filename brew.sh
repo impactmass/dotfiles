@@ -14,8 +14,6 @@ brew install coreutils
 
 # Install other useful binaries.
 brew install ack
-brew install dark-mode
-brew install imagemagick --with-webp
 brew install tree
 
 brew install mongodb

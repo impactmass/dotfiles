@@ -1,32 +1,26 @@
-# Path to your oh-my-zsh installation.
-PATH=/opt/local/bin:$PATH
+export PATH=/opt/local/bin:$PATH
 export ZSH=/Users/seunmartins/.oh-my-zsh
 export PATH=/usr/local/share/npm/bin:$PATH
 export PATH=/usr/local/bin:$PATH
+export PATH=~/Library/Python/3.6/bin/:$PATH # pip executable
 
-# i like: cobalt2, ys
+# Path GNU core utilities installed with brew
+export PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
+
+
+# I like: cobalt2, ys
 ZSH_THEME="ys"
-HYPHEN_INSENSITIVE="true"
-ENABLE_CORRECTION="true"
-
-# include z
-. /usr/local/Cellar/z/1.9/etc/profile.d/z.sh
 
 #plugins
 plugins=(git extract node npm bower)
 
 # User configuration
 source $ZSH/oh-my-zsh.sh
+
 eval "$(ssh-agent -s)"
-nvm use v7.4.0
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
 
 [[ -s "$HOME/.profile" ]] && source "$HOME/.profile" # Load the default .profile
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-
-HISTSIZE=SAVEHIST=100000
 setopt sharehistory
 setopt extendedhistory
 setopt auto_cd
@@ -44,4 +38,7 @@ fi
 # import aliases
 source $HOME/.aliases
 
-zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
+# Reaction sp
+export REACTION_USER="Seun Martins"
+export REACTION_AUTH=seunmartins
+export REACTION_EMAIL=seun@reactioncommerce.com
