@@ -1,12 +1,15 @@
 export PATH=/opt/local/bin:$PATH
-export ZSH=/Users/seunmartins/.oh-my-zsh
+export ZSH=/Users/seun/.oh-my-zsh
 export PATH=/usr/local/share/npm/bin:$PATH
 export PATH=/usr/local/bin:$PATH
-export PATH=~/Library/Python/3.6/bin/:$PATH # pip executable
+export PATH=~/Library/Python/2.7/bin/:$PATH # pip executable
 
 # Path GNU core utilities installed with brew
 export PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
 
+# npm pkg dir
+NPM_PACKAGES="$HOME/.npm-packages"
+PATH="$NPM_PACKAGES/bin:$PATH"
 
 # I like: cobalt2, ys
 ZSH_THEME="ys"
@@ -38,7 +41,5 @@ fi
 # import aliases
 source $HOME/.aliases
 
-# Reaction sp
-export REACTION_USER="Seun Martins"
-export REACTION_AUTH=seunmartins
-export REACTION_EMAIL=seun@reactioncommerce.com
+# Load other vars
+source .exports

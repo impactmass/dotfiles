@@ -20,7 +20,6 @@ export HISTFILESIZE="${HISTSIZE}";
 export HISTCONTROL='ignoreboth';
 export HYPHEN_INSENSITIVE="true"
 
-
 # Prefer US English and use UTF-8.
 export LANG='en_US.UTF-8';
 export LC_ALL='en_US.UTF-8';
@@ -30,3 +29,8 @@ export LESS_TERMCAP_md="${yellow}";
 
 # Don’t clear the screen after quitting a manual page.
 export MANPAGER='less -X';
+
+# Reaction app vars
+export REACTION_USER="Seun Martins"
+export REACTION_AUTH=x
+export REACTION_EMAIL=x
