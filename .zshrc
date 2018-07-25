@@ -42,4 +42,4 @@ fi
 source $HOME/.aliases
 
 # Load other vars
-source .exports
+source $HOME/.exports
