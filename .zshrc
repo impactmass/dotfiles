@@ -3,9 +3,7 @@ export ZSH=/Users/seun/.oh-my-zsh
 export PATH=/usr/local/share/npm/bin:$PATH
 export PATH=/usr/local/bin:$PATH
 export PATH=~/Library/Python/2.7/bin/:$PATH # pip executable
-
-# Path GNU core utilities installed with brew
-export PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
+export PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH # GNU core utilities installed with brew
 
 # npm pkg dir
 NPM_PACKAGES="$HOME/.npm-packages"
@@ -21,8 +19,6 @@ plugins=(git extract node npm bower)
 source $ZSH/oh-my-zsh.sh
 
 eval "$(ssh-agent -s)"
-
-[[ -s "$HOME/.profile" ]] && source "$HOME/.profile" # Load the default .profile
 
 setopt sharehistory
 setopt extendedhistory
