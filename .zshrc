@@ -1,19 +1,16 @@
 export PATH=/opt/local/bin:$PATH
 export ZSH=/Users/seun/.oh-my-zsh
 export PATH=/usr/local/share/npm/bin:$PATH
-export PATH=/usr/local/bin:$PATH
 export PATH=~/Library/Python/2.7/bin/:$PATH # pip executable
-export PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH # GNU core utilities installed with brew
-
-# npm pkg dir
-NPM_PACKAGES="$HOME/.npm-packages"
-PATH="$NPM_PACKAGES/bin:$PATH"
+export PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH # Path GNU core utilities installed with brew
+export PATH=/Users/seun/scripts:$PATH
+source $HOME/.exports # Load other vars
 
 # I like: cobalt2, ys
-ZSH_THEME="ys"
+ZSH_THEME="robbyrussell"
 
 #plugins
-plugins=(git extract node npm bower)
+plugins=(aws git docker zsh-syntax-highlighting)
 
 # User configuration
 source $ZSH/oh-my-zsh.sh
@@ -41,6 +38,3 @@ source $HOME/.functions
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-# Load other vars
-source $HOME/.exports
