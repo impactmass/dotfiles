@@ -18,5 +18,7 @@ brew install tree
 
 brew install mongodb
 
+brew install focusaurus/homebrew-shfmt/shfmt # might not install latest version
+
 # Remove outdated versions from the cellar.
 brew cleanup
