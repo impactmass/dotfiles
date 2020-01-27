@@ -15,10 +15,9 @@ brew install coreutils
 # Install other useful binaries.
 brew install ack
 brew install tree
-
 brew install mongodb
-
 brew install focusaurus/homebrew-shfmt/shfmt # might not install latest version
+brew install jq
 
 # Remove outdated versions from the cellar.
 brew cleanup
