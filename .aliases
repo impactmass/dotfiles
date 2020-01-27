@@ -6,12 +6,13 @@ alias gd='git diff'
 alias gco='git checkout '
 alias gbd='git branch -D '
 alias gcm='git commit -m'
-alias gp='grunt protractor'
-alias ls='lsd'
-alias gll='git log --pretty=oneline'
-alias gls='git log --stat'
 alias gl='git log'
+alias gll="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
+
 alias d='docker'
 alias dc='docker-compose'
 alias dps="docker ps -a --format '{{.Names}}|{{.Ports}}|{{.Status}}' | column -t -s '|'"
+alias ddps='d ps -a --format "table {{.ID}}\t{{.Image}}\t{{.CreatedAt}}\t{{.Names}}"'
+alias dcps='docker ps -a --format "table {{.Names}}\t{{.Label \"com.docker.compose.project\"}}\t{{.Label \"com.docker.compose.service\"}}\t{{.Status}}\t{{.Ports}}"'
+
 alias mongod='mongod --dbpath ~/opt/packages/mongodbdata'
