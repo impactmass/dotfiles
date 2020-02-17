@@ -11,6 +11,10 @@ Built off mathiasbynens/dotfiles.git. This is still a WIP.
 4. Run bootstrap.sh
 5. Run brew.sh
 
+Extra: [Pimp your bash](https://www.freecodecamp.org/news/jazz-up-your-bash-terminal-a-step-by-step-guide-with-pictures-80267554cb22/)
+
+Font style: Fira Mono for Powerline, Regular, 14
+
 #### Other things to setup/install
 - Visual Studio Code Extensions
   - ESLint
