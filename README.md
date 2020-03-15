@@ -16,11 +16,12 @@ Extra: [Pimp your bash](https://www.freecodecamp.org/news/jazz-up-your-bash-term
 Font style: Fira Mono for Powerline, Regular, 14
 
 #### Other things to setup/install
-- Visual Studio Code Extensions
-  - ESLint
-  - Path Intellisense
-  - Prettier - Code formatter
-  - shell-format
-  - shellcheck
-  - vscode-icons
-  - EditorConfig for VS Code
+- Visual Studio Code Extensions (`code --list-extensions`)
+  - christian-kohler.path-intellisense
+  - dbaeumer.vscode-eslint
+  - EditorConfig.EditorConfig
+  - esbenp.prettier-vscode
+  - foxundermoon.shell-format
+  - timonwong.shellcheck
+  - vscode-icons-team.vscode-icons
+  - xabikos.JavaScriptSnippets
