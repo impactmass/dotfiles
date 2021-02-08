@@ -12,7 +12,7 @@ Built off mathiasbynens/dotfiles.git. This is still a WIP.
 5. Run brew.sh
 7. [Style the terminal](https://www.freecodecamp.org/news/jazz-up-your-bash-terminal-a-step-by-step-guide-with-pictures-80267554cb22/)
 8. Font style: Fira Mono for Powerline, Regular, 14
-6. Visual Studio Code Extensions
+6. Visual Studio Code Extensions: `cat vscode-ext.txt | xargs -n1 code --install-extension`
 - akamud.vscode-theme-onedark
 - apollographql.vscode-apollo
 - bmewburn.vscode-intelephense-client
