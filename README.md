@@ -10,18 +10,24 @@ Built off mathiasbynens/dotfiles.git. This is still a WIP.
 3. Install NVM https://github.com/nvm-sh/nvm
 4. Run bootstrap.sh
 5. Run brew.sh
-
-Extra: [Pimp your bash](https://www.freecodecamp.org/news/jazz-up-your-bash-terminal-a-step-by-step-guide-with-pictures-80267554cb22/)
-
-Font style: Fira Mono for Powerline, Regular, 14
-
-#### Other things to setup/install
-- Visual Studio Code Extensions (`code --list-extensions`)
-  - christian-kohler.path-intellisense
-  - dbaeumer.vscode-eslint
-  - EditorConfig.EditorConfig
-  - esbenp.prettier-vscode
-  - foxundermoon.shell-format
-  - timonwong.shellcheck
-  - vscode-icons-team.vscode-icons
-  - xabikos.JavaScriptSnippets
+7. [Style the terminal](https://www.freecodecamp.org/news/jazz-up-your-bash-terminal-a-step-by-step-guide-with-pictures-80267554cb22/)
+8. Font style: Fira Mono for Powerline, Regular, 14
+6. Visual Studio Code Extensions
+- akamud.vscode-theme-onedark
+- apollographql.vscode-apollo
+- bmewburn.vscode-intelephense-client
+- christian-kohler.path-intellisense
+- CoenraadS.bracket-pair-colorizer-2
+- dbaeumer.vscode-eslint
+- dracula-theme.theme-dracula
+- EditorConfig.EditorConfig
+- esbenp.prettier-vscode
+- fabiospampinato.vscode-open-in-github
+- foxundermoon.shell-format
+- GraphQL.vscode-graphql
+- joelday.docthis
+- redhat.vscode-yaml
+- timonwong.shellcheck
+- vscode-icons-team.vscode-icons
+- xabikos.JavaScriptSnippets
+- zxh404.vscode-proto3
