@@ -17,5 +17,5 @@ Built off mathiasbynens/dotfiles.git. This is still a WIP.
 - Install NVM https://github.com/nvm-sh/nvm (Or Volta, or manage node versions [manually with brew](https://notiz.dev/blog/how-to-manage-multiple-node-versions-on-mac#installing-node-via-homebrew))
 - [Alfred](https://www.alfredapp.com/help/v3/)
 - [Rectangle](https://github.com/rxhanson/Rectangle)
-- Setup SSH Keys
+- Restore SSH Keys
 - [Docker](https://www.docker.com/)
