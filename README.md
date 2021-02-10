@@ -2,32 +2,20 @@ Use this to get a new computer up and running quickly. Created and tested for a 
 
 Built off mathiasbynens/dotfiles.git. This is still a WIP.
 
-### Usage
-
-1. First, make bash the default shell - newer macs come with zsh as default. `chsh -s`. You can also [upgrade](https://itnext.io/upgrading-bash-on-macos-7138bd1066ba) your bash version in the process.
-
-2. Install Homebrew https://brew.sh/
-3. Install NVM https://github.com/nvm-sh/nvm
-4. Run bootstrap.sh
-5. Run brew.sh
-7. [Style the terminal](https://www.freecodecamp.org/news/jazz-up-your-bash-terminal-a-step-by-step-guide-with-pictures-80267554cb22/)
-8. Font style: Fira Mono for Powerline, Regular, 14
-6. Visual Studio Code Extensions
-- akamud.vscode-theme-onedark
-- apollographql.vscode-apollo
-- bmewburn.vscode-intelephense-client
-- christian-kohler.path-intellisense
-- CoenraadS.bracket-pair-colorizer-2
-- dbaeumer.vscode-eslint
-- dracula-theme.theme-dracula
-- EditorConfig.EditorConfig
-- esbenp.prettier-vscode
-- fabiospampinato.vscode-open-in-github
-- foxundermoon.shell-format
-- GraphQL.vscode-graphql
-- joelday.docthis
-- redhat.vscode-yaml
-- timonwong.shellcheck
-- vscode-icons-team.vscode-icons
-- xabikos.JavaScriptSnippets
-- zxh404.vscode-proto3
+### My Setting Up Notes
+- Adjust some [recommended defaults](https://www.stuartellis.name/articles/mac-setup/)
+- Make bash the default shell - newer macs come with zsh as default. `chsh -s /bin/bash`. Then start a new shell.
+- You can also [upgrade](https://itnext.io/upgrading-bash-on-macos-7138bd1066ba) your bash version in the process.
+- Install Homebrew https://brew.sh/
+- Run bootstrap.sh
+- Run brew.sh
+- [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
+- Visual Studio Code https://code.visualstudio.com/
+- Visual Studio Code Extensions: `cat vscode/ext.txt | xargs -n1 code --install-extension`
+- Font [Input Mono](https://input.fontbureau.com/)
+- Visual Studio Code settings.json
+- Install NVM https://github.com/nvm-sh/nvm (Or Volta, or manage node versions [manually with brew](https://notiz.dev/blog/how-to-manage-multiple-node-versions-on-mac#installing-node-via-homebrew))
+- [Alfred](https://www.alfredapp.com/help/v3/)
+- [Rectangle](https://github.com/rxhanson/Rectangle)
+- Setup SSH Keys
+- [Docker](https://www.docker.com/)

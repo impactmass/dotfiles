@@ -9,6 +9,9 @@ function doIt() {
     --exclude "bootstrap.sh" \
     --exclude "README.md" \
     --exclude "LICENSE-MIT.txt" \
+    --exclude "brew.sh" \
+    --exclude "iterm.json" \
+    --exclude "vscode/" \
     -avh --no-perms . ~;
   source ~/.bashrc;
 }

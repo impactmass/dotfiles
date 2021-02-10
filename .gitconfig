@@ -12,4 +12,4 @@
 [credential]
 	helper = cache --timeout=28800
 [core]
-	excludesfile = /Users/seunmartins/.gitignore_global
+	excludesfile = /Users/sm/.gitignore
