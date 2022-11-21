@@ -16,9 +16,6 @@ brew install coreutils
 brew install tree
 brew install focusaurus/homebrew-shfmt/shfmt # might not install latest version
 brew install jq
-# mongodb
-brew tap mongodb/brew
-brew install mongodb-community@4.4
 
 # Remove outdated versions from the cellar.
 brew cleanup
