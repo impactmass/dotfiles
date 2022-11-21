@@ -4,8 +4,6 @@ Built off mathiasbynens/dotfiles.git. This is still a WIP.
 
 ### My Setting Up Notes
 - Adjust some [recommended defaults](https://www.stuartellis.name/articles/mac-setup/)
-- Make bash the default shell - newer macs come with zsh as default. `chsh -s /bin/bash`. Then start a new shell.
-- You can also [upgrade](https://itnext.io/upgrading-bash-on-macos-7138bd1066ba) your bash version in the process.
 - Install Homebrew https://brew.sh/
 - Run bootstrap.sh
 - Run brew.sh
