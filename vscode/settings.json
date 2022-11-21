@@ -1,41 +1,73 @@
 {
-    "debug.javascript.suggestPrettyPrinting": false,
-    "debug.javascript.usePreview": true,
-    "editor.detectIndentation": false,
-    "editor.fontFamily": "Input Mono",
-    "editor.minimap.enabled": false,
-    "editor.wordWrap": "on",
-    "editor.wordWrapColumn": 111120,
-    "explorer.confirmDragAndDrop": false,
-    "extensions.ignoreRecommendations": true,
-    "files.autoSave": "afterDelay",
-    "files.trimTrailingWhitespace": true,
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "prettier.printWidth": 80,
-    "prettier.singleQuote": false,
-    "prettier.tabWidth": 4,
-    "terminal.integrated.fontFamily": "Fira Mono for Powerline",
-    "vetur.format.options.tabSize": 4,
-    "vsicons.dontShowNewVersionMessage": true,
-    "window.zoomLevel": 1,
-    "workbench.colorTheme": "Monokai",
-    "workbench.startupEditor": "newUntitledFile",
-    "[vue]": {
-        "editor.defaultFormatter": "octref.vetur"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
-    }
+  "debug.javascript.suggestPrettyPrinting": false,
+  "editor.minimap.enabled": false,
+  "files.autoSave": "onFocusChange",
+  "files.defaultLanguage": "json",
+  "terminal.integrated.fontFamily": "Fira Mono for Powerline",
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.colorTheme": "Monokai",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.autoSaveDelay": 10000,
+  "extensions.ignoreRecommendations": true,
+  "launch": {
+
+      "configurations": [],
+      "compounds": []
+  },
+  "[yaml]": {
+      "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[graphql]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.alwaysShowStatus": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "redhat.telemetry.enabled": false,
+  "cSpell.userWords": [
+      "classpath",
+      "cloudinary",
+      "fastify",
+      "graphqls",
+      "impactmass",
+      "LEELOO",
+      "luat",
+      "Nsid",
+      "pino",
+      "Redactions",
+      "REMEMBERME",
+      "serializers",
+      "stackdriver",
+      "supergraph"
+  ],
+  "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "eslint.debug": true,
+  "workbench.editorAssociations": {
+      "*.txt": "default"
+  },
+  "terminal.integrated.scrollback": 10000000,
+  "security.workspace.trust.untrustedFiles": "open",
+  "window.zoomLevel": 1,
+  "editor.tabSize": 2
 }
