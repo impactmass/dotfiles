@@ -1,9 +1,7 @@
 {
-  "debug.javascript.suggestPrettyPrinting": false,
   "editor.minimap.enabled": false,
   "files.autoSave": "onFocusChange",
   "files.defaultLanguage": "json",
-  "terminal.integrated.fontFamily": "Fira Mono for Powerline",
   "vsicons.dontShowNewVersionMessage": true,
   "workbench.colorTheme": "Monokai",
   "workbench.editor.enablePreview": false,
@@ -40,7 +38,6 @@
   "eslint.alwaysShowStatus": true,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
-  "bracket-pair-colorizer-2.depreciation-notice": false,
   "redhat.telemetry.enabled": false,
   "cSpell.userWords": [
       "classpath",
@@ -68,6 +65,5 @@
   },
   "terminal.integrated.scrollback": 10000000,
   "security.workspace.trust.untrustedFiles": "open",
-  "window.zoomLevel": 1,
   "editor.tabSize": 2
 }
